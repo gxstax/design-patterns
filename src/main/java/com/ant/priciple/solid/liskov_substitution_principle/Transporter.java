@@ -1,7 +1,6 @@
-package com.ant.solid.liskov_substitution_principle;
+package com.ant.priciple.solid.liskov_substitution_principle;
 
 import com.sun.tools.internal.ws.processor.model.Response;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.http.client.HttpClient;
 
 /**

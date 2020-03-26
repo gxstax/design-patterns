@@ -1,4 +1,4 @@
-package com.ant.solid.liskov_substitution_principle;
+package com.ant.priciple.solid.liskov_substitution_principle;
 
 /**
  * <p>

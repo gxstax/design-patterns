@@ -1,24 +1,22 @@
 package com.ant;
 
-import netscape.javascript.JSObject;
-
-import java.math.BigDecimal;
-
 /**
  * <p>
  * 功能描述
  * </p>
  *
  * @author GaoXin
- * @since 2020/3/4 4:01 下午
+ * @since 2020/3/24 4:59 下午
  */
 public class Test {
 
     public static void main(String[] args) {
-        Demo demo = new Demo();
-        demo.setBalance(new BigDecimal(12.00));
-        demo.setCardNo("12224");
+        Integer i1 = 12;
+        Integer i2 = 12;
+        Integer i3 = 233;
+        Integer i4 = 233;
 
-
+        System.out.println(i1 == i2);
+        System.out.println(i3 == i4);
     }
 }

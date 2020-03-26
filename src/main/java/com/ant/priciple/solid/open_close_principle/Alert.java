@@ -1,4 +1,4 @@
-package com.ant.solid.open_close_principle;
+package com.ant.priciple.solid.open_close_principle;
 
 import java.util.ArrayList;
 import java.util.List;
