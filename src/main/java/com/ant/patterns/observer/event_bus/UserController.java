@@ -3,7 +3,6 @@ package com.ant.patterns.observer.event_bus;
 import com.google.common.eventbus.AsyncEventBus;
 import com.google.common.eventbus.EventBus;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Executors;
 

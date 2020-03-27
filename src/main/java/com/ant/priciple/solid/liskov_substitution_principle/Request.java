@@ -5,7 +5,7 @@ package com.ant.priciple.solid.liskov_substitution_principle;
  * 功能描述
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/3/2 9:12 上午
  */
 public class Request {

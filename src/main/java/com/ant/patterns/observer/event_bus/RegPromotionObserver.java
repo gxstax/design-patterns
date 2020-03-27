@@ -1,12 +1,6 @@
 package com.ant.patterns.observer.event_bus;
 
-import com.google.common.collect.Maps;
 import com.google.common.eventbus.Subscribe;
-import com.google.common.reflect.TypeToken;
-
-import java.lang.reflect.Method;
-import java.util.Map;
-import java.util.Set;
 
 import static com.google.common.base.Preconditions.checkArgument;
 
