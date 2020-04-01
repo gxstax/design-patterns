@@ -34,5 +34,21 @@ public interface List<E> {
      */
     Iterator iterator();
 
+    /**
+     * 容器大小
+     */
+    int size();
+
+    /**
+     * 新增元素
+     */
+    boolean add(E e);
+
+    /**
+     * 获取元素信息
+     */
+    E get(int cursor);
+
 }
+
 ````

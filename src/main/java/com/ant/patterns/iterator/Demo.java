@@ -2,10 +2,10 @@ package com.ant.patterns.iterator;
 
 /**
  * <p>
- * 功能描述
+ * 测试demo
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/4/1 8:54 上午
  */
 public class Demo {

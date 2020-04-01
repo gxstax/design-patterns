@@ -5,7 +5,7 @@ package com.ant.patterns.iterator;
  * 容器实现类
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/4/1 8:34 上午
  */
 public class ArrayList<E> implements List<E> {

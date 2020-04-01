@@ -5,7 +5,7 @@ package com.ant.patterns.iterator;
  * 容器抽象
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/4/1 8:33 上午
  */
 public interface List<E> {
@@ -25,6 +25,9 @@ public interface List<E> {
      */
     boolean add(E e);
 
+    /**
+     * 获取元素信息
+     */
     E get(int cursor);
 
 }

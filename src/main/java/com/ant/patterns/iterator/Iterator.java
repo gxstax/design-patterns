@@ -5,7 +5,7 @@ package com.ant.patterns.iterator;
  * 迭代器抽象
  * </p>
  *
- * @author GaoXin
+ * @author Ant
  * @since 2020/4/1 8:29 上午
  */
 public interface Iterator<E> {
