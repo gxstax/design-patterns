@@ -17,6 +17,7 @@
         <spring-boot-version>2.1.8.RELEASE</spring-boot-version>
         <google-guava-version>28.0-jre</google-guava-version>
         <junit-version>4.12</junit-version>
+        <logback-version>1.2.1</logback-version>
     </properties>
 
 
@@ -76,15 +77,23 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.1</version>
-            <scope>test</scope>
+            <version>${logback-version}</version>
+            <scope>compile</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-core -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.2.1</version>
+            <version>${logback-version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-access -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-access</artifactId>
+            <version>${logback-version}</version>
+        </dependency>
+
 
         <!-- tomcat 依赖-->
         <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->

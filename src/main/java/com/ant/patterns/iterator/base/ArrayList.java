@@ -1,4 +1,4 @@
-package com.ant.patterns.iterator;
+package com.ant.patterns.iterator.base;
 
 /**
  * <p>

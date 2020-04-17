@@ -1,4 +1,8 @@
-package com.ant.patterns.iterator;
+package com.ant.patterns.iterator.base;
+
+import com.ant.patterns.iterator.base.ArrayIterator;
+import com.ant.patterns.iterator.base.ArrayList;
+import com.ant.patterns.iterator.base.Iterator;
 
 /**
  * <p>

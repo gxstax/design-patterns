@@ -1,4 +1,4 @@
-package com.ant.patterns.iterator;
+package com.ant.patterns.iterator.snapshot;
 
 /**
  * <p>
@@ -12,6 +12,7 @@ public interface List<E> {
 
     /**
      * 组合迭代
+     * @return
      */
     Iterator iterator();
 
@@ -29,5 +30,10 @@ public interface List<E> {
      * 获取元素信息
      */
     E get(int cursor);
+
+    /**
+     * 删除元素
+     */
+    void remove(E e);
 
 }

@@ -17,6 +17,7 @@ public class CapeMario implements IMario{
     public static CapeMario getInstance() {
         return instance;
     }
+
     @Override
     public State getName() {
         return State.CAPE;
